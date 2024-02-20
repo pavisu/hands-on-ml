@@ -5,7 +5,7 @@ import sklearn.linear_model
 
 #Load the data
 oecd_bli = pd.read_csv("oecd_bli_2015.csv", thousands = ',')
-gdp_per_capita = pd_read_csv("gdp_per_capita.csv", thousands = ",", delimeter ='\t',
+gdp_per_capita = pd.read_csv("gdp_per_capita.csv", thousands = ",", delimeter ='\t',
                              encoding='latin1', na_values="n/a")
 
 #prepare the data
